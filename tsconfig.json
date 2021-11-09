@@ -1,5 +1,11 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@ui/core/*": ["uiKit/components/*"],
+      "@ui/styles/*": ["uiKit/global/styles/*"],
+      "@ui/utils/*": ["uiKit/global/utils/*"]
+    },
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
